@@ -1,0 +1,15 @@
+nav{
+  background-color: #f0f0f0;
+}
+
+header{
+  background-image: url('https://jooinn.com/images/abstract-background-305.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer{
+  background-color:#f0f0f0;
+}
