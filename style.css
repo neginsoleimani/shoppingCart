@@ -13,3 +13,7 @@ header{
 footer{
   background-color:#f0f0f0;
 }
+
+i{
+  cursor: pointer;
+}
