@@ -9,9 +9,9 @@
     <title>Shopping cart </title>
   </head>
   <body>
-    
+
 <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container px-4 px-lg-5">
             <a class="navbar-brand" href="#!">Shop name</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -30,7 +30,7 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn btn-light text-dark" type="button" id="cartBtn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <button class="btn btn-light text-dark  border border-secondary" type="button" id="cartBtn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
                         <i class="bi-cart-fill me-1"></i>
                         Cart
                         <span class="badge bg-dark text-white ms-1 rounded-pill " id="cartList"  >0</span>
@@ -40,8 +40,18 @@
         </div>
     </nav>
 
+<!-- Header-->
+<header class="bg-dark py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">mugs</h1>
+            <p class="lead fw-normal text-white-50 mb-0">. . .  text  . . . </p>
+        </div>
+    </div>
+</header>
+
 <!-- List of Products -->
-    <div class="container">
+    <div class="container mb-5">
             <div class="row row-cols-1 row-cols-md-5 g-4 mt-5">
         <div class="col">
           <div class="card h-100 border-primary">
@@ -134,6 +144,10 @@
         </div>
       </div>
     </div>
+<!-- Footer-->
+    <footer class="py-5 ">
+        <div class="container"><p class="m-0 text-center text-dark">Copyright &copy; Your Website 2021</p></div>
+    </footer>
 
 
 
